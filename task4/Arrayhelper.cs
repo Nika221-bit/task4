@@ -31,7 +31,7 @@ public static class Arrayhelper
         
         foreach (T item in array)
         {
-            Console.WriteLine(count++);
+            count++;
         }
         
         return count;
