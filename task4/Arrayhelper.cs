@@ -22,15 +22,7 @@ public static class Arrayhelper
 
     public static bool ContainsElement<T>(this T[] array, T search)
     {
-        foreach (var item in array)
-        {
-            if (item.Equals(search))
-            {
-                return true;
-            }
-            
-        }
-        return false;
+       return array.Contains(search);
     }
     
     public static int CountElements<T>(this T[] array)
