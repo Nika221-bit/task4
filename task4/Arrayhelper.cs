@@ -15,9 +15,9 @@ public static class Arrayhelper
         return array[0];
     }
     
-    public static void GetLastElement<T>(this T[] array){
-        T element = array[array.Length - 1];
-        Console.WriteLine(element);
+    public static T GetLastElement<T>(this T[] array){
+        return array[-1];
+        
     }
 
     public static bool ContainsElement<T>(this T[] array, T search)
