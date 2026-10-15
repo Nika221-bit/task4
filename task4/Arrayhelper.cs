@@ -11,9 +11,8 @@ public static class Arrayhelper
         }
     } 
     
-    public static void GetFirstElement<T>(this T[] array){
-        T element = array[0];
-        Console.WriteLine(element);
+    public static T GetFirstElement<T>(this T[] array){
+        return array[0];
     }
     
     public static void GetLastElement<T>(this T[] array){
